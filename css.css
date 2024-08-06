@@ -1,0 +1,91 @@
+header {
+    background-color: blueviolet;
+    color: white;
+
+    text-align: center;
+}
+
+
+section {
+   
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+
+    
+
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#Caixa {
+
+    transition: all.1s;
+    background-color: rgb(206, 172, 238);
+
+
+    width: 50vh;
+    height: 50vh;
+    text-align: center;
+    align-content: center;
+   border-radius: 10vh;
+}
+
+#Caixa:hover {
+
+
+    transition: all.1s;
+
+   
+    width: 60vh;
+    height: 60vh;
+
+
+}
+
+.caixa2 {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 20vh;
+    border-radius: 4vh;
+    border: 0px;
+
+
+}
+
+button {
+    border-radius: 4vh;
+    border: 0px;
+    width: 15vh;
+    transition: 0.4s;
+}
+
+button:hover {
+    border-radius: 4vh;
+    border: 0px;
+    width: 16vh;
+    transition: 0.4s;
+
+
+}
+
+a {
+    border-radius: 4vh;
+    border: 0px;
+    width: 15vh;
+    transition: 0.4s;
+    background-color: aliceblue;
+}
